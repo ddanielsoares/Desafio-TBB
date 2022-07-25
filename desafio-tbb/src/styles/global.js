@@ -35,4 +35,8 @@ input, select{
     color: #868E96;
     padding-left: 15px;
 }
+img{
+    width: 80px;
+    height: 100px;
+}
 `;
