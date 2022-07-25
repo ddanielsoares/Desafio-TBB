@@ -21,7 +21,6 @@ function App() {
       const filtered = dataProducts.filter(function (product) {
         return product.category.name === valor;
       });
-      console.log(filtered);
       setDataFiltered(filtered);
       setValor("");
     } else {
